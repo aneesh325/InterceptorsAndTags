@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE taglib  
+        PUBLIC "-//Sun Microsystems, Inc.//DTD JSP Tag Library 1.2//EN"  
+    "http://java.sun.com/j2ee/dtd/web-jsptaglibrary_1_2.dtd">
+    
+    <taglib>
+    <tlib-version>1.0</tlib-version>
+    <jsp-version>1.2</jsp-version> 
+    <short-name>t</short-name>
+    <uri>http://tomcat.apache.org/example-taglib</uri>
+    
+    <tag>
+    <name>time</name>
+    <tag-class>com.test.tagHandler.AppTagHandler</tag-class>
+    </tag>
+    
+    <tag-file>
+		<description>Show all errors and messages</description>
+		<name>messages</name>
+		<path>/WEB-INF/tags/messages.tag</path>
+	</tag-file>
+    
+    </taglib>
